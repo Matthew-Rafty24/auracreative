@@ -5,6 +5,7 @@ This is a test web application for practicing RoR.
 
 asdfalsdfaopsdf
 
+New line of text for testing.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
