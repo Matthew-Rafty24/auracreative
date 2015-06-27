@@ -1,5 +1,11 @@
 == README
 
+
+This is a test web application for practicing RoR.
+
+asdfalsdfaopsdf
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
