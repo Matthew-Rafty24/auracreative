@@ -2,7 +2,7 @@
 
 <p>
   <strong>Email:</strong>
-  <%= @profile.user.email %>
+  <%= @user.email %>
 </p>
 
 <p>
@@ -25,6 +25,15 @@
   <%= @profile.phone %>
 </p>
 
+<p>
+  <strong>Businesses</strong>
+  <% @business_profiles.each do |bp| %>
+  <li><%= link_to bp.name, business_profile_path(bp) %></li>
+  <% end %>
+</p>
+
 <% if current_user.profile == @profile %>
 	<%= link_to 'Edit my profile', edit_profile_path(@profile), class: 'btn btn-warning' %> 
 <% end %>
+
+<%= link_to 'Create Business Profile', new_business_profile_path %>

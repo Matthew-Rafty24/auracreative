@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: business_profiles
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  description  :text
+#  logo         :string
+#  website_link :string
+#  head_count   :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  slug         :string
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  logo: MyString
+  website_link: MyString
+  head_count: 1
+
+two:
+  name: MyString
+  description: MyText
+  logo: MyString
+  website_link: MyString
+  head_count: 1

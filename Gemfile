@@ -9,6 +9,8 @@ gem 'cancancan'
 gem 'rolify'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'friendly_id'
+gem 'acts-as-taggable-on', '~> 3.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -47,5 +49,9 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'annotate'
+  gem 'rails_best_practices'
 end
 
